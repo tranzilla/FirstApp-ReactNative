@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, FlatList } from 'react-native';
 
-//create a Emoji class - defines all the emoji that extends Component
+//create a Emoji class - defines all the emoji and extends it to Component
 class EmojiDict extends Component {
   render() {//Component needs render()
     return (//Return a FlatList
